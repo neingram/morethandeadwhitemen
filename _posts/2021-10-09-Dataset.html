@@ -5,48 +5,53 @@ date: 2020-10-9 01:34:00 -0400
 background: '/img/posts/06.jpg'
 ---
 
-# Dataset Information
+<h1> Dataset Information</h1>
 
-To create the dataset for this project, I combined information from several sources. First, I identified the approved and adopted textbooks for the Los Angeles Unified School District. I accessed the district-wide adopted textbook list, and then noted the texts for the core English courses, grades 9-12. For the New York Department of Education, I decided to focus on the widely-adopted EngageNY curriculum. 
+<p>To create the dataset for this project, I combined information from several sources. First, I identified the approved and adopted textbooks for the Los Angeles Unified School District. I accessed <a href="https://achieve.lausd.net/cms/lib/CA01000043/Centricity/domain/125/textbooks/williams%20sufficiency/adopted%20and%20approved%20instructional%20materials/High%20School%20Textbook%20Williams%20List.pdf/"> the district-wide adopted textbook list,</a> and then noted the texts for the core English courses, grades 9-12. For the New York Department of Education, I decided to focus on the widely-adopted <a href="https://www.engageny.org/">EngageNY curriculum</a>.</p> 
 
-## Approved LAUSD Textbooks
+<h2>Approved LAUSD Textbooks</h2>
 
-The approved textbooks for LAUSD English Language Arts core courses are:
+<p>The approved textbooks for LAUSD English Language Arts core courses are:</p>
+<ul>
+  <li><a href="https://www.savvas.com/index.cfm?locator=PS2rBh">MyPerspectives</a></li>
+  <li><a href="https://www.studysync.com/products/ela">StudySync</a></li>
+  <li><a href="https://springboard.collegeboard.org/ela/curriculum-and-resources/grades-6-12">Springboard</a></li>
+  <li><a href="https://www.hmhco.com/programs/collections#overview">CA Collections</a></li>
+</ul>
 
-- MyPerspectives
-- StudySync
-- Springboard
-- CA Collections
+<p>I first contacted the publishing companies of each textbook in order to obtain access to their table of contents. All publishers allowed me access to a demo account of their textbooks, but the level of access to the textbook contents itself varied by company:</p>
+<ul>
+<li>MyPerspectives's demo account gave me access to curriculum maps by grade level, as well as a table of contents for each text.</li>
+<li>StudySync's demo account allowed me to download  "Grade Level Overview" documents for each course, as well as "Scope and Sequence" documents for each course text.</li>
+<li>SpringBoard's demo account allowed me to download a "Scope and Sequence" document, as well as a "Passage List" document with title, author, and grade-level information for each assigned text.</li>
+<li>CA Collections's demo account was the only one that gave me full access to the electronic version of each textbook, which meant that I could search the text itself to find provided information about publication dates, authors' background, and any other author or textual context provided to the students.</li>
+</ul>
+  
+<h2>Data Categories</h2>
 
-I first contacted the publishing companies of each textbook in order to obtain access to their table of contents. All publishers allowed me access to a demo account of their textbooks, but the level of access to the textbook contents itself varied by company:
+<p>Based on that access, I created a spreadsheet recording the following pieces of information:</p>
+<ul>
+  <li>Textbook</li>
+  <li>Grade level or course name</li>
+  <li>Whether or not the text was designated as an "anchor text," "focus novel" or other indicator flagging it as different from the rest of the texts included in the work.</li>
+  <li>Author Name</li>
+  <li>Genre (as specified by the publisher)</li>
+  <li>Publication Date- this was often not noted on the table of contents and required me to manually find the information using Google.</li>
+  <li>Author Gender</li>
+  <li>Birth Country- This information was sometimes provided as part of the contextual background given to students, but in general it was missing and required me to perform additional research to find this information.</li>
+</ul>
 
-- MyPerspectives's demo account gave me access to curriculum maps by grade level, as well as a table of contents for each text.
-- StudySync's demo account allowed me to download  "Grade Level Overview" documents for each course, as well as "Scope and Sequence" documents for each course text.
-- SpringBoard's demo account allowed me to download a "Scope and Sequence" document, as well as a "Passage List" document with title, author, and grade-level information for each assigned text.
-- CA Collections's demo account was the only one that gave me full access to the electronic version of each textbook, which meant that I could search the text itself to find provided information about publication dates, authors' background, and any other author or textual context provided to the students.
+<h3> A note about N/A</h3>
 
-## Data Categories
+<p>"N/A" indicates</p>
+<ul>
+  <li> Instances where I was unable to verify the accuracy of data for a particular category</li>
+  <li>Works that were authored by a collective (e.g. the Supreme Court)</li>
+</ul>
 
-Based on that access, I created a spreadsheet recording the following pieces of information: 
+<p>I manually inputted this information into an excel spreadsheet and then used OpenRefine to assist with my data cleaning process.</p>
 
-- Textbook
-- Grade level or course name
-- Whether or not the text was designated as an "anchor text," "focus novel" or other indicator flagging it as different from the rest of the texts included in the work.
-- Author Name
-- Genre (as specified by the publisher)
-- Publication Date- this was often not noted on the table of contents and required me to manually find the information using Google.
-- Author Gender
-- Birth Country- This information was sometimes provided as part of the contextual background given to students, but in general it was missing and required me to perform additional research to find this information.
-
-### A note about N/A
-
-"N/A" indicates 
-
-- Instances where I was unable to verify the accuracy of data for a particular category
-- Works that were authored by a collective (e.g. the Supreme Court)
-
-I manually inputted this information into an excel spreadsheet and then used OpenRefine to assist with my data cleaning process.
-
-If you would like to view this project's data or use it for your own work, I invite you to access my dataset via the embed below or directly through this GoogleSheets link.
+<p>If you would like to view this project's data or use it for your own work, I invite you to access my dataset via the embed below or directly through <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSdefcjKmiWq65mqgia0q1126WE3vaQ0aXcP9KGXRKwzwYZw3EX2VQDp-IwqvhVIHOPIRK1NIUzjUhZ/pubhtml/">this GoogleSheets link.</a></p>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSdefcjKmiWq65mqgia0q1126WE3vaQ0aXcP9KGXRKwzwYZw3EX2VQDp-IwqvhVIHOPIRK1NIUzjUhZ/pubhtml?widget=true&amp;headers=false"></iframe>
 
 Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
