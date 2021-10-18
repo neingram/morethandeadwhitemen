@@ -1,11 +1,11 @@
 ## About This Project
 More Than Dead White Men? examines the contents of approved instructional materials for core English Language Arts courses, grades 9-12 within the two largest school districts in the nation—the New York City Department of Education and the Los Angeles Unified School District (LAUSD). This project was built using the free template, Start Bootstrap. More Than Dead White Men was created by and is maintained by **[Noël Ingram](https://noelingram.com/)**.
-*<https://noelingram.com/>
-*<https://twitter.com/neingramm>
-*<https://github.com/neingram>
+* <https://noelingram.com/>
+* <https://twitter.com/neingramm>
+* <https://github.com/neingram>
 
 
-## About Bootstrap
+## About Start Bootstrap
 
 Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
